@@ -12,16 +12,14 @@ const HeaderScrol = () => {
       color:"white",
         fontSize: "40px",
           "&:hover": { color: "blue" }}}/>  </a>
-      <a href="https://github.com/QodirovDoston" ><GitHubIcon sx={{
+      <a href="https://github.com/QodirovDoston"><GitHubIcon sx={{
       color:"white",
         fontSize: "40px",
           "&:hover": { color: "blue" }}}/></a>
-      <a href="https://www.instagram.com/qodirovdoston806/" ><InstagramIcon sx={{
+      <a href="https://www.instagram.com/qodirovdoston806/"><InstagramIcon sx={{
       color:"white",
         fontSize: "40px",
           "&:hover": { color: "blue" }}}/></a>
-      <a href="https://uz.linkedin.com/" ></a>
-
     </div>
     </>
   )

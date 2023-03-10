@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <a href="#" className={activeNav === '#' ? "active" : ""}> <HomeIcon sx={{
+        <a href="*" className={activeNav === '#' ? "active" : ""}> <HomeIcon sx={{
           color: "white",
           fontSize: "40px",
           "&:hover": { color: "blue" }
