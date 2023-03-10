@@ -1,0 +1,28 @@
+.contect_container{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+.contect_item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border:1px solid transparent ;
+    transition: var(--transition);
+}
+.contect_item:hover{
+border-color: var(--color-primary-variant);
+background: transparent;
+}
+.contect_item_image{
+    border-radius:1.5rem ;
+    overflow: hidden;
+}
+.contect_item h3{
+margin: 1.2rem 0 2rem;
+}
+.contect_item_cta{
+display: flex;
+gap: 1rem;
+padding-bottom: 1rem;
+}

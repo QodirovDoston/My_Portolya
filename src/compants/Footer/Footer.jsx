@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <>
     <section id='footer'>
+      
       footer
     </section>
     </>
