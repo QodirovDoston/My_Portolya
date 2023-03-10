@@ -8,19 +8,19 @@ const HeaderScrol = () => {
   return (
     <>
     <div className='header_socials'>
-      <a href="https://uz.linkedin.com/" target='_blank' ><LinkedInIcon   sx={{
+      <a href="https://uz.linkedin.com/"  ><LinkedInIcon   sx={{
       color:"white",
         fontSize: "40px",
           "&:hover": { color: "blue" }}}/>  </a>
-      <a href="https://github.com/QodirovDoston" target='_blank'><GitHubIcon sx={{
+      <a href="https://github.com/QodirovDoston" ><GitHubIcon sx={{
       color:"white",
         fontSize: "40px",
           "&:hover": { color: "blue" }}}/></a>
-      <a href="https://www.instagram.com/qodirovdoston806/" target='_blank'><InstagramIcon sx={{
+      <a href="https://www.instagram.com/qodirovdoston806/" ><InstagramIcon sx={{
       color:"white",
         fontSize: "40px",
           "&:hover": { color: "blue" }}}/></a>
-      <a href="https://uz.linkedin.com/" target='_blank'></a>
+      <a href="https://uz.linkedin.com/" ></a>
 
     </div>
     </>
