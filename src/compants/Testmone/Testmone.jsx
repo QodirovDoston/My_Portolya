@@ -75,7 +75,7 @@ const Testmone = () => {
 
           <article className='services'>
             <div className='services_head'>
-              <h3>Dewops </h3>
+              <h3>Devops </h3>
             </div>
             <ul className="services_list">
               <li>

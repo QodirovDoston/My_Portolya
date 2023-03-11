@@ -11,7 +11,7 @@ const Exproment = () => {
         <h5 className='my' >My expration</h5>
         <div className="container expreanse_container">
           <div className="expreanse_furontend">
-            <h3>frontend devol oper</h3>
+            <h3>frontend devoloper</h3>
             <div className="expreanse_content">
               <article className='expreanse_detalse'>
                 <VerifiedIcon className='expreanse_detalse_icon' />
@@ -51,7 +51,7 @@ const Exproment = () => {
             </div>
           </div>
           <div className="expreanse_backend">
-            <h3>Backend devol oper</h3>
+            <h3>Backend devoloper</h3>
             <div className="expreanse_content">
               <article className='expreanse_detalse'>
                 <VerifiedIcon className='expreanse_detalse_icon' />

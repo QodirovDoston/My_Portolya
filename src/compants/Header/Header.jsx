@@ -9,9 +9,9 @@ const Header = () => {
     <div>
       <header>
         <div className="container header_container">
-          <h5>hello i'm</h5>
-          <h1>Qodirov doston</h1>
-          <h5 className='text-light'>devaloper</h5>
+          <h5>Hello i'm</h5>
+          <h1>Qodirov Doston</h1>
+          <h5 className='text-light'>Devoloper && Devops</h5>
           <CTA />
           <HeaderScrol/>
           <a href="#contect" className='scroll_down'> scroll</a>
