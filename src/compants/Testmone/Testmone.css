@@ -56,12 +56,22 @@ text-align: center;
     }
     .services{
      height: auto;
+     margin-top: 100px;
+    }
+    .what{
+        margin-top: 604px;
+        margin-bottom: -80px;
     }
 }
 @media screen and (max-width:600px) {
     .services_container{
-        grid-template-columns: 1fr ;
+        grid-template-columns: 2fr ;
         gap: 1,5rem;
+        height: 300px;
     }
-    
+    .what{
+        margin-top: 650px;
+        /* margin-bottom: -80px; */
+    }
+   
 }

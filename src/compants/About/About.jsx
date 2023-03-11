@@ -35,8 +35,10 @@ const About = () => {
                 <small>90+ Completed</small>
               </article>
             </div>
+            <div className="both">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deserunt perferendis laboriosam? Laborum corporis iusto neque nemo, veritatis facilis impedit.</p>
-              <a href="#contect"className='btn btn-primary'>Let's Talk</a>
+              <a href="#contect" className='btn btn-primary'>Let's Talk</a>
+            </div>
           </div>
 
         </div>

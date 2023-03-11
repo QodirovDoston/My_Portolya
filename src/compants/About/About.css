@@ -80,7 +80,12 @@
 width: 65%;
 margin: 0 auto 3rem;
     }
+    .both{
+    width:354px;height:172px;
+             margin-top:174px;
+    }
     .about_cards{
         grid-template: unset;
     }
+   
 }

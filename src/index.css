@@ -18,9 +18,7 @@ text-decoration: none;
  --color-white:#fff;
  --color-light: rgba(255, 255, 255, 0,6 );
 
-
  transition: all 400ms ease;
-
  --container-width-lg:75%;
  --container-width-md:86%;
  --container-width-sm:90%;
@@ -35,15 +33,13 @@ html{
 }
 
 body{
+overflow-x: hidden;
 font-family: "poppins",sans-serif;
 background:var(--color-bg) ;
 color: var(--color-white);
 line-height: 1,7;
 background-image:url(./asssdjd/i\ \(2\).webp) ;
-/* background-repeat: no-repeat; */
 }
-
-
 /* ===================== geneal stayle  */
 
 
@@ -58,7 +54,7 @@ h3,
 h4,
 h5,
 h6{
-    font-weight: 500;
+    font-weight: 700;
 }
 
 h1{
@@ -130,7 +126,6 @@ img{
     section{
 margin-top: 6rem;
     }
-    
 }
 
 @media screen and (max-width:600px){
@@ -140,20 +135,4 @@ margin-top: 6rem;
     section >h2{
 margin-bottom: 2rem;
     }
-    
 }
-
-
-@media screen and (max-width:600px){
-    .container{
-        width: var(--container-width-sm);
-    }
-    section >h2{
-margin-bottom: 2rem;
-    }
-    
-}
-
-
-
-

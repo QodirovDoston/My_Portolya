@@ -1,64 +1,77 @@
-.expreanse_container{
+.expreanse_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:2rem;
+    gap: 2rem;
 }
 
-.expreanse_container >div{
-    background:var(--color-bg-variant) ;
+.expreanse_container>div {
+    background: var(--color-bg-variant);
     padding: 2.3rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
 }
-.expreanse_container >div:hover{
 
-background: transparent;
-border-color:var(--color-primary-variant);
-cursor: default;
-}
-.expreanse_container > div h3{
-text-align: center;
-margin-bottom: 2rem;
-color: var(--color-primary);
+.expreanse_container>div:hover {
+
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
 
-.expreanse_container{
-display: grid;
-grid-template-columns: 1fr 1fr;
-row-gap: 2rem;
+.expreanse_container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
 }
-.expreanse_detalse{
+
+.expreanse_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.expreanse_detalse {
     display: flex;
     gap: 1rem;
 }
 
-.expreanse_detalse_icon{
+.expreanse_detalse_icon {
     margin-top: 15px;
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
 }
 
 
 
 @media screen and (max-width:1024px) {
-    .expreanse_container{
+    .expreanse_container {
         grid-template-columns: 1fr;
         display: grid;
     }
-.expreanse_container > div{
+
+    .expreanse_container>div {
         width: 80%;
         padding: 2rem;
-        margin: 0 auto ;
+        margin: 0 auto;
     }
-    .expreanse_content{
+
+    .expreanse_content {
         padding: 1rem;
     }
-}
-@media screen and (max-width:600px) {
-    .expreanse_container{
-gap: 1rem;
+    .my1{
+        margin-top: 300px;
     }
-.expreanse_container > div{
-width: 100%;
-padding: 2rem 1rem;
+    .my{
+    margin-bottom: 300px;
+    }
 }
+
+@media screen and (max-width:600px) {
+    .expreanse_container {
+        gap: 1rem;
+    }
+
+    .expreanse_container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }

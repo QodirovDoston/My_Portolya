@@ -14,27 +14,22 @@ const Nav = () => {
       <nav>
         <a href="*" className={activeNav === '#' ? "active" : ""}> <HomeIcon sx={{
           color: "white",
-          fontSize: "40px",
           "&:hover": { color: "blue" }
         }} /></a>
         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? "active" : ""} > <PersonIcon sx={{
           color: "white",
-          fontSize: "40px",
           "&:hover": { color: "blue" }
         }} /></a>
         <a href="#exproment" onClick={() => setActiveNav('#exproment')} className={activeNav === '#exproment' ? "active" : ""} > <BookmarkIcon sx={{
           color: "white",
-          fontSize: "40px",
           "&:hover": { color: "blue" }
         }} /></a>
         <a href="#test" onClick={() => setActiveNav('#test')} className={activeNav === '#test' ? "active" : ""}> <MessageIcon sx={{
           color: "white",
-          fontSize: "40px",
           "&:hover": { color: "blue" }
         }} /></a>
         <a href="#contect" onClick={() => setActiveNav('#contect')} className={activeNav === '#contect' ? "active" : ""}> <PermContactCalendarIcon sx={{
           color: "white",
-          fontSize: "40px",
           "&:hover": { color: "blue" }
         }} /></a>
       </nav>
