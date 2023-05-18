@@ -27,7 +27,7 @@
     margin: 0.8rem auto 0;
 }
 /* .spider-paginattion-cle */
-/* 
+
 @media screen and (max-width:1024px) {
     .expreanse_container {
         grid-template-columns: 1fr;
@@ -62,4 +62,4 @@
         width: 100%;
         padding: 2rem 1rem;
     }
-} */
+}

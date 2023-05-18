@@ -57,7 +57,9 @@
 @media screen and (max-width: 600px) {
     .contect_container {
         grid-template-columns: 1fr ;
+        margin-top: 16rem;
         gap: 1rem;
+        justify-content: center;
     }
 
  .contect_container>div {
